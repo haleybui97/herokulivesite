@@ -1,0 +1,190 @@
+/* Author:Thi Hong Hanh Bui
+ Student ID: 3011122851
+ Date: June 19, 2022*/
+
+.logo {
+    width: 100px;
+    height: 58px;
+}
+
+.bodySection {
+    background-color: #EAEAEA;
+    width: 100%;
+    height: 720px;
+}
+
+#footer {
+    background-color: white;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.social-icon {
+    padding-left: 30px;
+}
+
+h1.welcome {
+    font-size: 8rem;
+    padding: 8%;
+    font-family: 'Sacramento', cursive;
+}
+
+.copyRight {
+    margin-top: 2%;
+}
+
+img.selfImage {
+    width: 450px;
+    height: 600px;
+    padding: 50px;
+    float: left;
+}
+
+.aboutME {
+    width: 50%;
+    text-align: left;
+}
+
+.text {
+    padding: 10%;
+}
+
+.aboutTitle {
+    font-family: 'Rowdies';
+}
+
+.para {
+    font-family: 'Ubuntu';
+}
+
+.btn-talk {
+    background: #d1e1eb;
+    background-image: -webkit-linear-gradient(top, #d1e1eb, #47bd99);
+    background-image: -moz-linear-gradient(top, #d1e1eb, #47bd99);
+    background-image: -ms-linear-gradient(top, #d1e1eb, #47bd99);
+    background-image: -o-linear-gradient(top, #d1e1eb, #47bd99);
+    background-image: linear-gradient(to bottom, #d1e1eb, #47bd99);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #7aaecf;
+    background-image: -webkit-linear-gradient(top, #7aaecf, #3db8a3);
+    background-image: -moz-linear-gradient(top, #7aaecf, #3db8a3);
+    background-image: -ms-linear-gradient(top, #7aaecf, #3db8a3);
+    background-image: -o-linear-gradient(top, #7aaecf, #3db8a3);
+    background-image: linear-gradient(to bottom, #7aaecf, #3db8a3);
+    text-decoration: none;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 50%;
+    height: 87%;
+    margin: 20px;
+}
+
+.testimonial-body {
+    padding: 10%;
+    text-align: center;
+}
+
+/* services section */
+
+.services {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.services-image {
+    width: 150px;
+    height: 150px;
+}
+
+.service-title {
+    font-size: 60px;
+}
+
+.service-row {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.service-title {
+    font-family: 'Rowdies';
+}
+
+.service-subtitle {
+    font-family: 'Rowdies';
+}
+
+.service-text {
+    width: 30%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 35%;
+}
+
+
+/* Contact section */
+
+.contact-container {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4 vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.contact-form h3 {
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: rgb(245, 241, 241);
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 19px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    margin-bottom: 8%;
+}
+
+.flash {
+    color: red;
+}

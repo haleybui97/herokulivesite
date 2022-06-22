@@ -1,0 +1,61 @@
+<!--  Author:Thi Hong Hanh Bui
+ Student ID: 3011122851
+ Date: June 19, 2022 -->
+
+<% include ../partials/header.ejs %>
+    <!-- Main Content -->
+    <section class="bodySection">
+        <main class="container">
+            <div class="row">
+                <h1>
+                    <%= title %>
+                </h1>
+                <br>
+                <div>
+                    <a href="/businessList/add" class="btn btn-primary align-self-end" role="button">
+                        <i class="fas fa-plus-circle"></i> Update a new Business contact list
+                    </a>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover">
+                        <!-- Header Row-->
+                        <tr>
+                            <th class="text-center">Contact Name</th>
+                            <th class="text-center">Contact Number</th>
+                            <th class="text-center">Email Address</th>
+                            <th class="text-center" colspan="2">Actions</th>
+                        </tr>
+
+                        <!-- Repeatable Template Row -->
+
+                        <% for(let count = 0; count < ContactList.length; count++) { %>
+                            <tr>
+                                <td class="text-center">
+                                    <%= ContactList[count].contactName %>
+                                </td>
+                                <td class="text-center">
+                                    <%= ContactList[count].contactNumber %>
+                                </td>
+                                <td class="text-center">
+                                    <%= ContactList[count].emailAddress %>
+                                </td>
+
+
+                                <td class="text-center">
+                                    <a href="/businessList/edit/<%= ContactList[count]._id %>" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-pencil-alt"></i></a>
+                                </td>
+                                <td class="text-center">
+                                    <a href="/businessList/delete/<%= ContactList[count]._id %>" class="btn btn-danger btn-sm">
+                                        <i class="fas fa-trash-alt"></i></a>
+                                </td>
+                            </tr>
+                            <% } %>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <% include ../partials/footer.ejs %>
